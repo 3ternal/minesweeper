@@ -6,6 +6,7 @@
 .board {
   width: 600px;
   margin: auto;
+  text-align: center;
 }
 
 .row {
