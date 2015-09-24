@@ -1,0 +1,50 @@
+.container {
+  width: 900px;
+  margin: 20px auto;
+}
+
+.board {
+  width: 600px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  background-color: #F1F1F1;
+  border: 1px solid black;
+  box-sizing: border-box;
+  font-size: 2.1em;
+  text-align: center;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.unclicked {
+  width: 50px;
+  height: 50px;
+  background-color: #B3BFC3;
+  border: 1px solid black;
+  box-sizing: border-box;
+  z-index: 3;
+}
+
+button {
+  margin: 20px auto;
+  display: block;
+}
+
+.mine {
+  background: url(mine.png) center no-repeat;
+  background-size: 50px 50px;
+  background-color: #F1F1F1;
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+}
